@@ -1,6 +1,13 @@
+/* CSS Reset */
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #fcfbfb;
     font-family: Arial, sans-serif;
+    font-size: 22px; /* Adjusted font size */
 }
 
 #content {
@@ -26,7 +33,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 35px; /* Adjusted padding */
     display: inline-block;
 }
 
@@ -49,10 +56,11 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    background-color: #d9c2a3; /* Adjusted background color */
+    color: black; /* Adjusted text color */
+    padding: 15px 30px; /* Adjusted padding */
     text-decoration: none;
+    border-radius: 5px; /* Added border-radius */
 }
 
 .book:hover, .join:hover {
@@ -70,15 +78,16 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #d9d9d9;
+    background-color: #6f7364; /* Adjusted background color */
     text-align: center;
-    padding: 20px 0;
+    padding: 35px; /* Adjusted padding */
+    line-height: 1.5em; /* Adjusted line height */
 }
 
 footer {
     background-color: #222;
     color: white;
-    padding: 20px 0;
+    padding: 25px 50px; /* Adjusted padding */
     text-align: center;
 }
 
@@ -98,4 +107,3 @@ footer a:hover {
 footer .social a {
     margin: 0 10px;
 }
-
