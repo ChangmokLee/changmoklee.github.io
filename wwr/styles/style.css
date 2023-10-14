@@ -1,13 +1,31 @@
-/* CSS Reset */
-body, h2 {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-color: #fcfbfb;
-    font-family: Arial, sans-serif;
-    font-size: 22px;
+h2, .home-title {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    margin: 0;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book, .join {
+    font-size: 18px;
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 #content {
@@ -21,18 +39,16 @@ header {
     padding: 10px 0;
 }
 
-#logo_link {
-    display: inline-block;
-    vertical-align: middle;
+main section {
+    text-align: center;
 }
 
 .logo {
     width: 80px;
 }
 
-nav {
-    display: inline-block;
-    vertical-align: middle;
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a {
@@ -48,11 +64,16 @@ nav a:hover {
     color: #d9c2a3;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
 #hero-img {
     width: 100%;
-    max-width: 1600px;
-    display: block;
-    margin: 0 auto;
 }
 
 #hero-msg h1,
@@ -67,10 +88,11 @@ nav a:hover {
 .book, .join {
     background-color: #d9c2a3;
     color: black;
-    padding: 15px 30px;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
     border-radius: 5px;
-    display: inline-block;
 }
 
 .book:hover, .join:hover {
@@ -78,10 +100,13 @@ nav a:hover {
     color: #d9c2a3;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .icon {
+    padding-top: 10px;
     width: 80px;
-    display: block;
-    margin: 10px auto;
 }
 
 #background {
@@ -91,15 +116,20 @@ nav a:hover {
 
 .msg {
     background-color: #6f7364;
-    text-align: center;
-    padding: 35px;
     line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
+    margin-top: 200px;
     background-color: #222;
     color: white;
-    padding: 25px 0;
+    padding: 25px 50px;
     text-align: center;
 }
 
@@ -110,14 +140,13 @@ footer p {
 footer a {
     color: #d9c2a3;
     text-decoration: none;
-    margin: 0 10px;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
-footer .social a img {
-    margin: 0 10px;
-    vertical-align: middle;
+footer .social img {
+    padding-top: 15px;
 }
+
