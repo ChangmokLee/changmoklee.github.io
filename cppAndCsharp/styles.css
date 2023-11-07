@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a base font to the body element */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+main > section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional styles for the C# Fundamentals page */
+
+/* Style for the active navigation link */
+nav ul li a.active {
+    background-color: #5cb85c; /* This gives a green color, you can change it to match your site's theme */
+    color: #fff;
+}
+
+/* Style for individual sections on the C# Fundamentals page */
+#csharp-basics, #csharp-advanced, #csharp-resources {
+    background-color: #eef; /* Light blue background, feel free to change it */
+    border-left: 4px solid #5cb85c; /* Adds a left border to denote active section, color can be changed */
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Additional styles for the Advanced C++ page */
+
+/* Specific section styles for the C++ page */
+#cpp-concepts, #cpp-optimization, #cpp-tools {
+    background-color: #fef7e9; /* Creamy background, can be changed to fit the theme */
+    border-left: 4px solid #d9534f; /* Adds a left border, color can be changed */
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* You may want to add more specific styles or modify these based on your content */
