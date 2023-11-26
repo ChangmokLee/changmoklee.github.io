@@ -17,6 +17,12 @@
             <li><a href="cpp-advanced.html">Advanced C++</a></li>
             <li><a href="wireframe.html">Wireframe</a></li>
         </ul>
+        <div class="search-container">
+            <form action="/search">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </nav>
 </header>
 
@@ -43,6 +49,16 @@
         <h2>Projects & Community</h2>
         <p>Connect with fellow developers, share your projects, and find collaborators. Our community is here to support everyone from hobbyists to seasoned programmers.</p>
         <!-- More content -->
+    </section>
+
+    <section id="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
 </main>
 
