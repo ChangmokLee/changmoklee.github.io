@@ -264,3 +264,28 @@ footer {
 #contact-form button:hover {
     background-color: #555;
 }
+
+/* Accordion styles */
+.accordion {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .accordion-section {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-title {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
