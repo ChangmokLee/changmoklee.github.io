@@ -1,0 +1,135 @@
+/* Reset some default styles */
+body, h1, h2, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+#hero {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-msg {
+    margin-top: 20px;
+}
+
+.home-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.button-box {
+    margin-top: 20px;
+}
+
+.book {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.book:hover {
+    background-color: #ff3300;
+}
+
+.home-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+#background {
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.mountains {
+    position: absolute;
+    bottom: 0
